@@ -10,6 +10,7 @@ export default function Boletim(){
 
     function media(){
         let a = (nota1 + nota2 + nota3 + nota4) / 4;
+        setResposta(a);
     }
 
     return(
@@ -34,11 +35,11 @@ export default function Boletim(){
             </div>
 
             <div>
-                <button>CALCULAR</button>
+                <button onClick={media}>CALCULAR</button>
             </div>
 
             <div>
-                
+                {resposta}
             </div>
         </main>
     )

@@ -14,6 +14,10 @@ function App() {
       <div>
         <Link to='/boletim'>Programa das Notas Escolares</Link>
       </div>
+
+      <div>
+        <Link to='/libra'>Programa do Signo Libra</Link>
+      </div>
      </main>
     </div>
   );
